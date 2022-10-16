@@ -338,7 +338,7 @@ const updateEmployeesManager = async () => {
       },
     ]);
   
-    //update the database with new manager
+    //assign a new manager to an employee
     await db.updateEmployeeManager(managerId, employeeId);
     
     console.log(`\n employee manager updated \n`);

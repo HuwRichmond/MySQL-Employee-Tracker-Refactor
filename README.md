@@ -34,7 +34,7 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
 
-## Video Link
+## Video Recording
 
 Video link goes here
 
@@ -42,20 +42,28 @@ Video link goes here
 
 The following packages are required to use the application
 
-    * NPM Inquirer
-
     * MySQL
+
+    * Inquirer
 
     * NPM console table package
 
-## License: 
-   
-   ISC
+## Use
 
-## Github Repository:
+```md
+Create .env file using the example template
+Source the schema.sql in MySQL
+Run npm i && npm start in terminal to run application
+```
+
+## License 
+   
+   None
+
+## Github Repository
  [github.com/HuwRichmond/MySQL-Employee-Tracker-Refactor](https://github.com/HuwRichmond/MySQL-Employee-Tracker-Refactor)
 
-## Contact:
+## Contact
 
 Created by Huw Richmond
 
