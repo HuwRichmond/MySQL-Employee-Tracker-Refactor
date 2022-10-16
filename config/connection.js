@@ -2,7 +2,7 @@ const mysql = require('mysql2');
 const util = require("util"); 
 require('dotenv').config();
 
-// Connect to database
+// create connection to the database (db)
 const db = mysql.createConnection(
     {
       host: process.env.DB_HOST,
@@ -10,7 +10,7 @@ const db = mysql.createConnection(
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME
     },
-    console.log(`Connected to the office_db database.`)
+    console.log(`Connected to database`)
 );
 
 db.connect(err => {
