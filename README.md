@@ -36,7 +36,7 @@ THEN I am prompted to select an employee to update and their new role and this i
 
 ## Video Recording
 
-Video link goes here
+[Link to walkthrough video](https://drive.google.com/file/d/1fP7U1wyRgLkOq--SW548SFneHmUduhgH/view?usp=sharing)
 
 ## Required Packages
 
