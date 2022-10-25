@@ -1,8 +1,7 @@
-// library modules
-const { query } = require("./connection");
-const db = require("./connection");
 
-// this gives the SQL container class
+const { query } = require("./connection");
+
+const db = require("./connection");
 class dbQuerry {
   constructor(db) {
     this.db = db;
